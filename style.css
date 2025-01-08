@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar.expand{
+    height: 200px;
+    background-color: black;
+}
+
+.list.expand{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item.expand{
+    margin-top:5px;
+    color:yellow;
+}
